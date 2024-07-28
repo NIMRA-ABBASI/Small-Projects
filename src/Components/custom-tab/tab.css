@@ -1,0 +1,33 @@
+.wrapper
+{
+    padding:8px;
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+
+}
+.tab-item
+{
+    display: inline-flex;
+    text-align: center;
+    padding: 10px 15px;
+    background-color:rgb(190, 149, 98);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.active
+{
+    background-color:brown;
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

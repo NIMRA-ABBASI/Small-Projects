@@ -1,0 +1,33 @@
+.wrapper
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+.accordian
+{
+    width: 500px;
+}
+.item
+{
+    background:black;
+    margin-bottom: 10px;
+    padding:10px 20px;
+
+}
+.title
+{
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    cursor:pointer;
+}
+.answer
+{
+    color:#fff;
+}
